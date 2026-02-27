@@ -1,0 +1,14 @@
+#! /bin/sh
+if [ ! $# = 1 ] ; then
+    echo "ERROR::invalid input parameter!"
+    return;
+fi
+
+result=`cat /proc/wap_proc/spec | grep -w $1`
+if [ $? = 0 ];then
+    echo $result | while read n1 n2 n3 n4;do
+        echo $n4
+    done
+else
+    echo "ERROR::Spec $1 not found!"
+fi

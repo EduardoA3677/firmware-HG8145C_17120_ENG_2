@@ -1,0 +1,25 @@
+#! /bin/sh
+
+PATH=/bin:/sbin:/usr/bin:/usr/sbin
+	mount -t proc proc /proc 
+	mount -t sysfs -o mode=750 sysfs /sys
+	mount -t tmpfs -o mode=750 tmpfs /dev
+	chmod 755 /dev
+#quiet
+	echo 1 > /proc/sys/kernel/printk
+
+#the debug version open the console print 
+if [ -f /etc/wap/DebugVersionFlag ] || [ `cat /usr/bin/bin/program_key` = "E8C,COMMON,CMCC" ]; then
+	insmod /lib/modules/linux/kernel/drivers/tty/serial/serial_core.ko
+	insmod /lib/modules/linux/kernel/drivers/tty/serial/8250/8250.ko
+	insmod /lib/modules/linux/kernel/drivers/tty/serial/8250/8250_dw.ko	
+	# Creating device driver instances
+	mdev -s
+	echo /sbin/mdev > /proc/sys/kernel/hotplug
+	/etc/rc.d/rc.sysinit > /dev/console 2>&1
+else
+	# Creating device driver instances
+	mdev -s
+	echo /sbin/mdev > /proc/sys/kernel/hotplug
+	/etc/rc.d/rc.sysinit
+fi

@@ -1,0 +1,13 @@
+<!-- Type表示属性类型，与结构体定义要保持一致 -->
+<!-- MaxLength表示属性所占用的最大空间，要与结构体保持一致，非VALUE_TYPE_CHAR类型该参数无效，VALUE_TYPE_CHAR类型MaxLength必须包含\0结束符的长度 -->
+<WIFIAP>
+<EventList>
+<NotifyWLCAssociatedStat>
+<WlanConfigurationIndex Type="VALUE_TYPE_UINT32" MaxLength="4" />
+<FbtNotifyType Type="VALUE_TYPE_UINT32" MaxLength="4" />
+<FbtRSSI Type="VALUE_TYPE_UINT32" MaxLength="4" />
+<FbtChannel Type="VALUE_TYPE_UINT32" MaxLength="4" />
+<FbtMacEnties Type="VALUE_TYPE_CHAR" MaxLength="20" />
+</NotifyWLCAssociatedStat>
+</EventList>
+</WIFIAP>

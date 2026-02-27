@@ -1,0 +1,63 @@
+<CusCliRoot>
+<SetPwd CmdStr="set password" CmdGroup="0x81000000"/>
+<SetSn CmdStr="set sn" CmdGroup="0x81000000"/>
+
+<GetWifiInformation CmdStr="display wifi information" CmdGroup="0x82000000"/>
+<SetWifiBandEnableChannel CmdStr="set wifi radio" CmdGroup="0x82000000"/>
+<SetWpsSwitch CmdStr="set wps" CmdGroup="0x82000000"/>
+<SetSSIDInfo CmdStr="set ssid" CmdGroup="0x82000000"/>
+<DisplayWifiFactory CmdStr="display wifi factory" CmdGroup="0x82000000"/>
+<DisplayPassword CmdStr="display password" CmdGroup="0x83000000"/>
+
+<DisplaySntpInfo CmdStr="display sntp info" CmdGroup="0x81000000"/>
+<DisplayCliClient CmdStr="display cli client" CmdGroup="0x81000000"/>
+<DisplayCurrent-configuration CmdStr="display current-configuration" CmdGroup="0x81000000"/>
+<ShowFirewallRule CmdStr="display firewall rule" CmdGroup="0x81000000"/>
+<DHCPClient CmdStr="display dhcp client" CmdGroup="0x81000000"/>
+<DHCPClientAll CmdStr="display dhcp client all" CmdGroup="0x81000000"/>
+<SetEthPortMirror CmdStr="set ethportmirror" CmdGroup="0x81000000"/>
+<GetConnection CmdStr="display connection" CmdGroup="0x81000000"/>
+<GetConnectionAll CmdStr="display connection all" CmdGroup="0x81000000"/>
+<DisplayIpNeigh CmdStr="display ip neigh" CmdGroup="0x81000000"/>
+<DisplayIpv4Route CmdStr="display ip route" CmdGroup="0x81000000"/>
+<DisplayIpv6Route CmdStr="display ip -6 route" CmdGroup="0x81000000"/>
+<DHCPClientPacket CmdStr="debugging dhcp client packet " CmdGroup=""/>
+<UndoDHCPClientPacket CmdStr="undo debugging dhcp client packet" CmdGroup=""/>
+<DHCPClientPacketGet CmdStr="display debugging dhcp client packet" CmdGroup=""/>
+<DHCPClient6Packet CmdStr="debugging dhcp client6 packet"  CmdGroup=""/>
+<UndoDHCPClient6Packet CmdStr="undo debugging dhcp client6 packet" CmdGroup=""/>
+<GetDhcp6cTraceSwitch CmdStr="display debugging dhcp client6 packet" CmdGroup=""/>
+<SetTrafficDump CmdStr="trafficdump" CmdGroup="0x81000000"/>
+<PPPoEClientPacket CmdStr="debugging pppoe client packet " CmdGroup=""/>
+<UndoPPPoEClientPacket CmdStr="undo debugging pppoe client packet" CmdGroup=""/>
+<PPPoEClientPacketGet CmdStr="display debugging pppoe client packet" CmdGroup=""/>
+<RenewDhcpClient CmdStr="dhcp client renew" CmdGroup="0x81000000"/>
+<AttachDHCPClient CmdStr="dhcp client attach" CmdGroup="0x81000000"/>
+<DetachDHCPClient CmdStr="dhcp client detach" CmdGroup="0x81000000"/>
+<RenewDhcpClient6 CmdStr="dhcp client6 renew" CmdGroup="0x81000000"/>
+<AttachDHCPClient6 CmdStr="dhcp client6 attach" CmdGroup="0x81000000"/>
+<DetachDHCPClient6 CmdStr="dhcp client6 detach" CmdGroup="0x81000000"/>
+<DHCPServer CmdStr="display dhcp server pool" CmdGroup="0x81000000"/>
+<DHCPServerAll CmdStr="display dhcp server pool all" CmdGroup="0x81000000"/>
+<DisplayUserdev CmdStr="display user device" CmdGroup="0x81000000"/>
+<ShowWanPktStatistic CmdStr="display bbsp stats wan" CmdGroup="0x81000000"/>
+<DisplayIgmpProgram CmdStr="display igmp" CmdGroup="0x81000000"/>
+<FlushIgmp CmdStr="flush igmp" CmdGroup="0x81000000"/>
+<IgmpProxyQuery CmdStr="igmp proxy query" CmdGroup="0x81000000"/>
+<UndoIgmpProxyQuery CmdStr="undo igmp proxy query" CmdGroup="0x81000000"/>
+<IgmpConfig CmdStr="igmp config" CmdGroup="0x81000000"/>
+<IgmpMember CmdStr="igmp member" CmdGroup="0x81000000"/>
+<UndoIgmpMember CmdStr="undo igmp member" CmdGroup="0x81000000"/>
+<DebugIgmp CmdStr="debugging igmp" CmdGroup=""/>
+<UndoDebugIgmp CmdStr="undo debugging igmp" CmdGroup=""/>
+<UndoDebugIgmpHost CmdStr="undo debugging igmp host" CmdGroup=""/>
+<DispDebugIgmp CmdStr="display debugging igmp" CmdGroup=""/>
+<GetPortConfig CmdStr="get port config" CmdGroup="0x81000000"/>
+<DisplayPortmapping CmdStr="display nat port mapping" CmdGroup="0x82000000"/>
+<AddPortmapping CmdStr="nat port mapping add" CmdGroup="0x82000000"/>
+<DelPortmapping CmdStr="nat port mapping delete" CmdGroup="0x82000000"/>
+<FlushPortmapping CmdStr="nat port mapping flush" CmdGroup="0x82000000"/>
+<Setdtmfmethod CmdStr="set voicedtmfmethod" CmdGroup="0x81000000"/>
+
+<SwmBackupCfg CmdStr="backup cfg" CmdGroup="0x83000000"/>
+</CusCliRoot>

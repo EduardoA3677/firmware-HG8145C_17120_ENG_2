@@ -1,0 +1,86 @@
+.treeview
+{ 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.treeview ul { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.treeview ul {
+	background-color: white;
+	margin-top: 4px;
+}
+
+.treeview .hitarea {
+	background:#FFFFFF url(images/minus.gif) no-repeat 0;
+	_background:#FFFFFF url(images/minus.gif) no-repeat 30% 50%;/* hack for internet explorer 6*/
+	height: 16px;
+	width: 16px;
+	margin-left: -16px;
+	float: left;
+	cursor: pointer;
+}
+
+.treeview .hitareaEx {
+	height: 16px;
+	width: 16px;
+	margin-left: -16px;
+	float: left;
+	cursor: pointer;
+}
+/* fix for IE6 */
+* html .hitarea{
+	display: inline;
+	float: none;
+}
+
+* html .hitareaEx{
+	display: inline;
+	float: none;
+}
+
+.treeview li { 
+	margin: 0;
+	padding: 3px 0pt 3px 20px;
+}
+
+.treeview a.selected {
+	background-color: #eee;
+}
+#treecontrol { margin: 1em 0; display: none; }
+
+/*for div*/
+.treeview .expandable-hitarea
+{ 
+	background:#FFFFFF url(images/plus.gif) no-repeat 0;
+	_background:#FFFFFF url(images/plus.gif) no-repeat 30% 50%;
+}
+
+.treeview .hover { color: red; cursor: pointer; }
+
+#maskContent{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	background:#999999;
+	border:1px solid #cecece;
+	z-index:1500;
+}
+
+#maskWaiteImg{
+	position:absolute; 
+	display:none; 
+	padding:10px; 
+	height:100px;
+	width: 100px;
+	background: url(images/load.gif) no-repeat 50% 50%;
+	z-index:2000;
+}

@@ -1,0 +1,40 @@
+<InternetGatewayDevice> 
+<X_HW_DEBUG> 
+<AMP>
+<WifiCoverSetWlanBasic setconfig = "0x00000002">
+<SsidInst setconfig = "0x00000002"/>
+<SSID setconfig = "0x00000002"/>
+<Enable setconfig = "0x00000002"/>
+<Standard setconfig = "0x00000002"/>
+<BeaconType setconfig = "0x00000002"/>
+<BasicEncryptionModes setconfig = "0x00000002"/>
+<BasicAuthenticationMode setconfig = "0x00000002"/>
+<WPAEncryptionModes setconfig = "0x00000002"/>
+<WPAAuthenticationMode setconfig = "0x00000002"/>
+<IEEE11iEncryptionModes setconfig = "0x00000002"/>
+<IEEE11iAuthenticationMode setconfig = "0x00000002"/>
+<MixEncryptionModes setconfig = "0x00000002"/>
+<MixAuthenticationMode setconfig = "0x00000002"/>
+<WEPEncryptionLevel setconfig = "0x00000002"/>
+<WEPKeyIndex setconfig = "0x00000002"/>
+<Key setconfig = "0x00000002"/>
+</WifiCoverSetWlanBasic>
+</AMP>
+</X_HW_DEBUG> 
+<X_HW_APDevice setconfig = "0x00000002" >
+<WifiCover setconfig = "0x00000002" >
+<WorkingMode setconfig = "0x00000002"/>
+<ExtendedWLC setconfig = "0x00000002" addconfig = "0x00000002" delconfig = "0x00000002">
+<SSIDIndex setconfig = "0x00000002"/>
+</ExtendedWLC>
+</WifiCover>
+</X_HW_APDevice>
+<X_HW_WifiCoverService setconfig = "0x00000002" >
+<AutoExtended setconfig = "0x00000002"/>
+<AutoExtendedSSIDIndex setconfig = "0x00000002"/>
+<IspExtended setconfig = "0x00000002"/>
+<AutoSwitchAP setconfig = "0x00000002"/>
+<ForcedSwitchThrehold setconfig = "0x00000002"/>
+<ConditionalSwitchThrehold setconfig = "0x00000002"/>
+</X_HW_WifiCoverService>
+</InternetGatewayDevice> 

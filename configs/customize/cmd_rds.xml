@@ -1,0 +1,13 @@
+<CusCliRoot>
+<displayMacaddress CmdStr="display macaddress" CmdGroup=""/>
+<saveData CmdStr="save data" CmdGroup=""/>
+<VspaDisplayMgIfState CmdStr="vspa display mg if state" CmdGroup=""/>
+<VspaDisplayMgcpConfig CmdStr="vspa display mgcp config" CmdGroup=""/>
+<MgcpMgc1 CmdStr="mgcp mgc 1" CmdGroup=""/>
+<MgcpMgc2 CmdStr="mgcp mgc 2" CmdGroup=""/>
+<MgcpMgConfig CmdStr="mgcp mg-config" CmdGroup=""/>
+</CusCliRoot>
+
+
+
+

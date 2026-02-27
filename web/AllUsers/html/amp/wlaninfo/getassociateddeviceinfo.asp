@@ -1,0 +1,1 @@
+<%HW_WEB_CmdGetWlanConf(InternetGatewayDevice.LANDevice.1.WLANConfiguration.{i}.AssociatedDevice.{i},AssociatedDeviceMACAddress|X_HW_Uptime|X_HW_RxRate|X_HW_TxRate|X_HW_RSSI|X_HW_Noise|X_HW_SNR|X_HW_SingalQuality|X_HW_WorkingMode|X_HW_WMMStatus|X_HW_PSMode,stAssociatedDevice,STATUS);%>;
